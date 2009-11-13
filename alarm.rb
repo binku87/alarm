@@ -8,9 +8,9 @@ while true do
   sleep(60*interval_time)
   gone_time+=interval_time
   if gone_time >= total_time
-    `notify-send "Time Out!" -i /home/binku/media/picture/time_out.png`
+    `notify-send "Time Out!" -i /img_folder/time_out.png`
      break
   else
-    `notify-send "已经过去#{gone_time}分钟了            还剩#{total_time-gone_time}分钟" -i /home/binku/media/picture/time.png`
+    `notify-send "已经过去#{gone_time}分钟了            还剩#{total_time-gone_time}分钟" -i /img_folder/time.png`
   end 
 end

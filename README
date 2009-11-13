@@ -1,4 +1,14 @@
-# Alert #
+# Alarm #
 
-alert is a simple ruby script use to tell us whether it is time up and go to have a rest.
+alarm is a simple ruby script use to tell us whether it is time up and go to have a rest.
 Since notify-sent has a petty UI,so i use notify-sent to notify.
+
+## Usage ## 
+ruby alarm.rb 60 10
+Params:
+    the first param is the total time 
+    the second param is the notify interval 
+
+In this simple , every 10 min will sent notify and after 60 min late will notify time up.
+
+
